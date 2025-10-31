@@ -1,6 +1,10 @@
 <div align="center">
 
 # 🎬 CINEMAX
+<p align="center">
+  <img src="Testing/Screenshot%202025-10-31%20101634.png" alt="Cinemax Demo" width="900">
+</p>
+
 
 ### *Your AI-Powered Movie Discovery Companion*
 
