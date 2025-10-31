@@ -118,15 +118,16 @@ pip package manager
 ### **Installation**
 
 ```bash
-# 1️⃣ Clone the repository
-git clone https://github.com/Bit-Bard/Cinemax.git
-cd Cinemax
+git clone https://github.com/Bit-Bard/CineMax.git
+cd CineMax
+```
 
-# 2️⃣ Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
-# 3️⃣ Launch the application
-streamlit run app.py
+```bash
+streamlit run Gui.py
 ```
 
 ### **That's it! 🎉**
@@ -181,12 +182,14 @@ Your browser will automatically open to `http://localhost:8501`
 ```
 Cinemax/
 │
-├── app.py                    # Main Streamlit application
+├── Gui.py                    # Main Streamlit application
 ├── model/
-│   ├── similarity.pkl        # Pre-computed similarity matrix
-│   └── movies.pkl            # Processed movie dataset
+├── ├── tfidf.pkl
+├── ├── nn_tfidf.pkl
+│   ├── user_similarity.pkl        
+│   └── user_movie_matrix.pkl           
 ├── notebooks/
-│   └── development.ipynb     # Jupyter notebook for experimentation
+│   └── Baseline1.ipynb     # Jupyter notebook for experimentation
 ├── data/
 │   └── movies_metadata.csv   # Raw dataset
 ├── requirements.txt          # Python dependencies
@@ -223,23 +226,6 @@ Building Cinemax teaches you:
 
 ---
 
-## 📸 **Screenshots**
-
-<div align="center">
-
-### **Home Screen**
-*Add your app screenshot here*
-
-### **Recommendations View**
-*Add recommendations screenshot here*
-
-### **Movie Details**
-*Add movie details screenshot here*
-
-</div>
-
----
-
 ## 🤝 **Contribute & Collaborate**
 
 Contributions are what make the open-source community amazing! Any contributions you make are **greatly appreciated**.
@@ -268,7 +254,7 @@ Open an issue with the `enhancement` label and let's discuss!
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dhruv-devaliya/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Bit-Bard)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhruvdevaliya@gmail.com)
 
 *Passionate about Machine Learning, AI, and building impactful solutions*
 
